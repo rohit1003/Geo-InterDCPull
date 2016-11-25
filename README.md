@@ -1,1 +1,2 @@
-# Geo-InterDCPull
+# GeoReplication
+CS523 - Project

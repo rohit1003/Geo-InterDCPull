@@ -152,7 +152,7 @@ unsigned long long workload::writeload(int _blob_id_count,int _value,ClientSocke
 	
 	struct timeval ct;
     gettimeofday(&ct, NULL);
-    //sleep(1);
+   
     string str="";
     str = "WR#" + to_string(_blob_id_count) +"#"+ to_string(_value);
     
@@ -193,6 +193,6 @@ int main(){
 
 	workload w;
 	w.generation(c);
-
+	
     return 0;
 }
